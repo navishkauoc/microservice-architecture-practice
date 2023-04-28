@@ -6,9 +6,9 @@ spring:
     name: customer
   datasource:
     username: 'navishka'
-    url: jdbc:postgres://localhost:5432/customer
+    url: jdbc:postgresql://localhost:5432/customer
     password: 'password'
-
+    driver-class-name: org.postgresql.Driver
   jpa:
     properties:
       hibernate:
